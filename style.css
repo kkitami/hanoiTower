@@ -1,0 +1,96 @@
+html,
+body {
+  background: #f0faff;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: url(https://img.freepik.com/free-psd/sprayed-gradient-with-the-grain-effect-editable-color_511042-553.jpg?w=826&t=st=1698776226~exp=1698776826~hmac=7ee397093bf9d0668329fd349771f8c055447fc5ff0e146b7d51b94c238456c6);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+label {
+  transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  line-height: 25px;
+  padding: 5px 25px;
+  display: inline-block;
+  text-align: center;
+  font-family: sans-serif;
+  color: sienna;	
+  font-size: 21px;
+  font-weight: 900;
+  position: absolute;
+  margin-top: 100px;
+  left: 50%;
+}
+
+.tower {
+  position: absolute;
+  margin: -65px 0 0 -187px;
+  width: 374px;
+  height: 130px;
+  left: 50%;
+  top: 50%;
+}
+.tower li {
+  cursor: pointer;
+  transform: scale(-1);
+  transform: scale(-1);
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  width: 32.3333%;
+  text-align: center;
+}
+.tower li.selected div:last-of-type {
+  transform: translate(0, 50%);
+  transform: translate(0, 50%);
+}
+.tower li div {
+  position: relative;
+  display: block;
+  height: 12px;
+  box-sizing: border-box;
+  left: 50%;
+  border-radius: 5px;
+}
+.tower li div[data-width="1"] {
+  width: 22%;
+  margin-left: -11%;
+  background: red;
+}
+.tower li div[data-width="2"] {
+  width: 33%;
+  margin-left: -16.5%;
+  background: orange;
+}
+.tower li div[data-width="3"] {
+  width: 44%;
+  margin-left: -22%;
+  background: black;
+}
+.tower li div[data-width="4"] {
+  width: 55%;
+  margin-left: -27.5%;
+  background: aqua;
+}
+.tower li div[data-width="5"] {
+  width: 66%;
+  margin-left: -33%;
+  background: green;
+}
+.tower li:before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: sienna;
+  left: 50%;
+  margin-left: -3px;
+}
